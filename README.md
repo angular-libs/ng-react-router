@@ -1,4 +1,4 @@
-# ng-react-router
+# ng-react-router  [![Build Status](https://travis-ci.org/angular-libs/ng-react-router.svg?branch=master)](https://travis-ci.org/angular-libs/ng-react-router)
 Router to render react routes in a Angular application 
 
 ### install

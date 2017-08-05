@@ -1,6 +1,6 @@
 {
   "name": "ng-react-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Router to render react routes in a Angular application",
   "main": "build/ng-react-router.js",
   "scripts": {

@@ -1,0 +1,39 @@
+{
+  "name": "ng-react-router",
+  "version": "1.0.0",
+  "description": "Router to render react routes in a Angular application",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "git-branch-is master",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "bump --prompt --commit --tag --push"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^1.0.0-beta.1",
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "version-bump-prompt": "^3.1.2",
+    "git-branch-is": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular-libs/ng-react-router.git"
+  },
+  "keywords": [
+    "ng-react-router",
+    "react",
+    "router",
+    "for",
+    "angular"
+  ],
+  "author": "kuldeep keshwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular-libs/ng-react-router/issues"
+  },
+  "homepage": "https://github.com/angular-libs/ng-react-router#readme"
+}

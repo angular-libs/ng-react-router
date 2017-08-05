@@ -22,7 +22,7 @@ const config = {
   },
   externals: [{
     react: 'React',
-    'react-dom': 'ReactDOM',
+    'react-dom': 'react-dom',
     lodash:'lodash',
     angular:"angular"
   }],

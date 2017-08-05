@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("angular"), require("React"), require("ReactDOM"), require("lodash"));
+		module.exports = factory(require("angular"), require("React"), require("react-dom"), require("lodash"));
 	else if(typeof define === 'function' && define.amd)
-		define(["angular", "React", "ReactDOM", "lodash"], factory);
+		define(["angular", "React", "react-dom", "lodash"], factory);
 	else if(typeof exports === 'object')
-		exports["ngReactRouter"] = factory(require("angular"), require("React"), require("ReactDOM"), require("lodash"));
+		exports["ngReactRouter"] = factory(require("angular"), require("React"), require("react-dom"), require("lodash"));
 	else
-		root["ngReactRouter"] = factory(root["angular"], root["React"], root["ReactDOM"], root["lodash"]);
+		root["ngReactRouter"] = factory(root["angular"], root["React"], root["react-dom"], root["lodash"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__, __WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__, __WEBPACK_EXTERNAL_MODULE_4__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache

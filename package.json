@@ -7,7 +7,7 @@
     "preversion": "git-branch-is master",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bump": "bump --prompt --commit --tag --push"
+    "bump": "bump --prompt --commit --tag --push && npm publish"
   },
   "dependencies": {
     "angular": "^1.5.0",

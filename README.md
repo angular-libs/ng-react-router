@@ -5,7 +5,20 @@ Router to render react routes in a Angular application
 `npm i ng-react-router`
 
 ### example
-`app.js`
+
+`react-page.js`
+```javascript
+const ReactPage = ()=> `<p>this is react page</p>`;
+
+export default const routes= [{
+  path:'react-page',
+  component:ReactPage
+}]
+
+```
+
+
+`angular-app.js`
 ```javascript
 import { provider } from 'ng-react-router'
 angular.module('react-module', [
@@ -17,7 +30,8 @@ angular.module('react-module', [
       state:'react-module',
       basePath:'/react-app',
       routeResolver:(path)=> {
-        return System.import(path).then((module=>module.routes)); 
+        // path will be react-page                        
+        return System.import('./'+path).then((module=>module.default)); 
       },
       templateProvider:(err,uiView)=>{
         if(err){
